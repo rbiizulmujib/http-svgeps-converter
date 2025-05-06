@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return '<h2>EPS Converter API — /convert-to-eps or /convert-zip</h2>'
+    return '<h2>Converter is works!</h2>'
 
 @app.route('/convert-to-eps', methods=['POST'])
 def convert_to_eps():
